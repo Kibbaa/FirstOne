@@ -58,3 +58,7 @@ let num = string.match(/\d{6}/);
 console.log(num[0]);
 };
 console.log(findNumber(StringTask7));
+//Task 8(Оставьте в массиве только отрицательные числа) случайно пропустил одно задание (4)
+const arrTask8 = [1, 14, -4, -124, -2, 1, 4, 5]
+const resTask8 = arrTask8.filter(item => item < 0 );
+console.log(resTask8);
